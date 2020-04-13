@@ -19,6 +19,13 @@
     "@angular/platform-browser": "~9.1.0",
     "@angular/platform-browser-dynamic": "~9.1.0",
     "@angular/router": "~9.1.0",
+    "ag-grid": "^18.1.2",
+    "ag-grid-angular": "^23.0.3",
+    "ag-grid-community": "^23.0.2",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0",
+    "ngx-bootstrap": "^5.6.1",
+    "popper.js": "^1.16.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
