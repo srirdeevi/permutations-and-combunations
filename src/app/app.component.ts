@@ -90,7 +90,12 @@ export class AppComponent implements OnInit{
         }
       }
     console.log(tempArray);
-    this.gridApi.setRowData(tempArray);
+    const data = tempArray.map(x => {
+      return {
+        phoneNumber: x
+      };
+    });
+    this.gridApi.setRowData(data);
     }
    ValidatePhone(control: AbstractControl): {[key: string]: any} | null  {
     if (control.value && control.value.length !== 10  && control.value.length !== 7) {
